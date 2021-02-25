@@ -1,0 +1,111 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .about-us-area .about-info {
+    padding-left: 30px;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header-area .main-menu ul li {
+    margin: 0 5px;
+  }
+  .blog-area .single-blog .blog-info .blog-title {
+    font-size: 20px;
+  }
+  .fotter-area .fotter-widget .social-icon li {
+    margin-right: 15px;
+  }
+  .about-us-area .about-info {
+    padding-left: 55px;
+  }
+  .blog-sidebar-area .single-blog .blog-info .blog-title {
+    font-size: 20px;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-transfrent {
+    padding-top: 30px;
+  }
+  .slider-area .slider-content {
+    margin-bottom: 50px;
+  }
+  .about-us-area .about-image {
+    margin-bottom: 50px;
+  }
+  .testimonial-area .testimonial-info button.slick-prev.slick-arrow {
+    left: 45%;
+  }
+  .testimonial-area .testimonial-info button.slick-next.slick-arrow {
+    left: 52%;
+  }
+  .sticky {
+    padding-top: 30px;
+  }
+  .single-blog .blog-info .blog-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .mean-bar .mean-nav ul li a i {
+    display: none;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .header-transfrent {
+    padding-top: 30px;
+  }
+  .slider-area .slider-content {
+    margin-bottom: 50px;
+  }
+  .about-us-area .about-image {
+    margin-bottom: 50px;
+  }
+  .testimonial-area .testimonial-info button.slick-prev.slick-arrow {
+    left: 38%;
+  }
+  .about-us-area .about-info .indicator-area li i::before {
+    margin-right: 5px;
+  }
+  .about-us-area .about-info .indicator-area li span {
+    font-size: 12px;
+  }
+  .testimonial-area .testimonial-info button.slick-prev.slick-arrow {
+    left: 35%;
+  }
+  .sticky {
+    padding-top: 30px;
+  }
+  .blog-sidebar-area .blog-filter-menu button {
+    margin-right: 30px;
+  }
+  .blog-filtering .blog-filter-menu button {
+    margin-right: 30px;
+  }
+  .protflio-area .protflio-menu button {
+    margin-bottom: 10px;
+  }
+  .mean-bar .mean-nav ul li a i {
+    display: none;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+  .about-us-area .about-info .indicator-area li i::before {
+    margin-right: 10px;
+  }
+  .about-us-area .about-info .indicator-area li span {
+    font-size: 15px;
+  }
+  .testimonial-area .testimonial-info button.slick-prev.slick-arrow {
+    left: 38%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
